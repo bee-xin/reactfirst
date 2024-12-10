@@ -1,0 +1,25 @@
+.one{
+    background-color: green;
+    height:60px;
+    width:70x;
+    color:black;
+}
+.three{
+    background-color: rgb(110, 75, 75);
+    height: 40px;
+}
+.flex-container{
+    display:flex;
+    background-color:blue;
+    height:45px;
+    justify-content:space-between;
+}
+.flex-container >a{
+    padding:15px;
+    color:white;
+    font-weight:bold;
+}
+
+a:link{
+    text-decoration: none;
+}
