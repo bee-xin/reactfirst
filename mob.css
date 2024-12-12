@@ -1,5 +1,4 @@
 body{
-  overflow: scroll;
     position: relative;
 }
 .notice{
@@ -16,10 +15,11 @@ body{
 .flex-container{
     display:flex;
     flex-direction: column;
+   
 }
 img{
     margin-top:50px;
-    margin-left:13px;
+    margin-left:3px;
     margin-right:13px;
     margin-bottom: 12px;
     width:405px;
@@ -27,10 +27,61 @@ img{
     border-radius: 10px;
 }
 .intro{
-    border: 2px solid black;
-    margin:13px;
+    margin:5px;
     width:405px;
     background-color:rgb(93, 93, 153);
     color:white;
     border-radius: 5px;
+}
+.message{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.message img{
+   align-items: center;
+    width:263px;
+    height:321px;
+}
+.message div{
+    margin:30px;
+    margin-top: -17px;
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    color: white;
+}
+.profile div{
+    margin:10px;
+    width:388px;
+}
+.profile .inst{
+    background-color:green;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom:0px;
+    display:flex;
+    align-items:center;
+}
+.profile .list{
+    color: blue;
+    border:2px solid rgb(172, 169, 169); 
+    border-radius: 6px;
+    height:65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: -1px;
+    margin-right: 2px;
+  text-align: center;
+  box-shadow:0.9px 0.9px rgb(121, 117, 117);
+}
+.profile .list:hover{
+    background-color:grey;
+    font-size:20px;
+    opacity: 0.7;
+
 }
