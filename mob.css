@@ -103,5 +103,18 @@ body{
     color:blue; 
     text-align:center;
 }
-
-    
+.News {
+   display:flex;
+   flex-direction:column;
+}
+.News img{
+    width:382px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+.center{
+    display:flex;
+    background: red;
+    flex-direction:column;
+}
