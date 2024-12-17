@@ -115,6 +115,8 @@ body{
 }
 .center{
     display:flex;
-    background: red;
     flex-direction:column;
+}
+.center .green{
+    color:green;
 }

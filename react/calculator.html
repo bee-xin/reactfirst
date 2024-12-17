@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div>
+        <label for="input1">Input1</label>
+        <input type="number" id="input1">
+    </div>
+        <br>
+        <div>
+        <label for="input2">Input2</label>
+        <input type="number" id="input2">
+    </div>
+    <br>
+    <div class="operators">
+        <button onclick="calculator('add')">ADD</button>
+        <button onclick="calculator('sub')">SUB</button>
+        <button onclick="calculator('mul')">MUL</button>
+        <button onclick="calculator('div')"> DIV</button>
+    </div>
+    <br>
+Result:<span id="result"></span>
+    <script src="calculator.js"></script>
+</body>
+</html>
