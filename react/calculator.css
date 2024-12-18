@@ -4,7 +4,16 @@
     border:3px solid black;
     width:190px;
     padding: 10px;
+    margin-left: 40%;
+    margin-top:10%;
+    
 }
 .card input{
     width:100px;
+}
+.card .box{
+    border:2px solid black;
+    width: 90px;
+    height:15px;
+    padding: 5px;
 }

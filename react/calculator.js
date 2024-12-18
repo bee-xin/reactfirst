@@ -12,7 +12,7 @@ function calculator(operation){
         result.innerHTML= input1 * input2;
     }
      else if(operation ==="div"){
-        result.innerHTML= input1 / input2;
+        result.innerHTML= parseFloat(input1 / input2).toFixed(3);
      }
      else{
         alert("Invalid Operation");
