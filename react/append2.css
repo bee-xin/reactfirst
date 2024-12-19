@@ -1,0 +1,10 @@
+
+table, td, th{
+border:2px solid;
+border-collapse:collapse;
+}
+div.form{
+    margin: 30px;
+    width:200px;
+    padding: 20px;
+}

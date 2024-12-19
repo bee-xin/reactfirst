@@ -1,0 +1,6 @@
+    Installation process for node js
+1. search nvm windows  on google.
+2. Click on websites mentioning coreybutler 
+3.  Click on the download link in that github
+4. Scroll down until you are on the Asset.
+5. Inside Asset click on nvvm-setup exe
